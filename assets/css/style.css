@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background-color: grey;
+}
+header{
+  position: sticky;
+  top: 0;
 }
 .navbar {
   display: flex;
@@ -12,8 +18,8 @@ body {
   padding: 23px 0px;
   background-color: white;
 }
-.navbar img{
-cursor: pointer;
+.navbar img {
+  cursor: pointer;
 }
 .navbar ul {
   display: flex;
@@ -24,26 +30,58 @@ cursor: pointer;
   text-decoration: none;
   color: black;
   padding: 2px 20px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 400;
 }
-.navbar input {
+.navbar ul li a:hover {
+  color: crimson;
+  font-weight: 400;
+}
+.input-icon input {
   padding: 8px 35px 8px 4px;
   border: 1px solid rgb(189 179 179 / 23%);
   border-radius: 20px;
   background-color: rgb(189 179 179 / 23%);
   font-size: 16px;
+  position: relative;
+  overflow-x: hidden;
 }
-.btn1{
-    padding: 20px 20px;
-    background-color: dodgerblue;
-    color:white;
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-    border-radius: 35px;
-    cursor: pointer;
+.input-icon button {
+  margin: -30px;
+  border: none;
+  cursor: pointer;
 }
-.btn1:hover{
-background-color: rgb(2, 127, 252);
+.btn1 {
+  padding: 20px 20px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
-
+.btn1::before {
+  background-color: rgb(116, 180, 243);
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  border-radius: 35px;
+  transition: all 0.2s ease-in-out;
+}
+.btn1:hover {
+  color: white;
+}
+.btn1:hover::before {
+  color: white;
+  width: 100%;
+}
