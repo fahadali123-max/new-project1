@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 body {
-  background-color: grey;
+  width: 100%;
+  overflow-x: hidden;
 }
-header{
+header {
   position: sticky;
   top: 0;
 }
@@ -51,7 +55,7 @@ header{
   border: none;
   cursor: pointer;
 }
-.btn1 {
+.btn1 button {
   padding: 20px 20px;
   background-color: dodgerblue;
   color: white;
@@ -65,8 +69,8 @@ header{
   overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
-.btn1::before {
-  background-color: rgb(116, 180, 243);
+.btn1 button::before {
+  background-color: rgb(40, 196, 243);
   content: "";
   top: 0;
   left: 0;
@@ -78,10 +82,59 @@ header{
   border-radius: 35px;
   transition: all 0.2s ease-in-out;
 }
-.btn1:hover {
+.btn1 button:hover {
   color: rgb(255, 255, 255);
 }
-.btn1:hover::before {
+.btn1 button:hover::before {
   color: white;
   width: 100%;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(200, 255, 255);
+  height: 100vh;
+  width: 100vw;
+}
+.main .main-img img {
+  display: block;
+  height: 100vh;
+}
+img {
+  vertical-align: middle;
+}
+.content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -30px;
+}
+.content span {
+  font-family: "Yellowtail", cursive;
+  color: #2577fd;
+  font-size: 40px;
+  font-weight: 400;
+  display: block;
+  width: 40%;
+}
+.content h1 {
+  font-family: "Playfair", serif;
+  color: #1f2022;
+  font-size: 120px;
+  font-weight: 900;
+  display: block;
+  width: 50%;
+}
+.content p {
+  font-family: "Yellowtail", cursive;
+  font-size: 30px;
+  margin-left: -30px;
+  color: #1f2022;
+}
+.btn2 button {
+  margin-top: 25px;
+  margin-left: -40px;
+  padding: 20px 30px;
 }
