@@ -225,9 +225,6 @@ img {
 .navbar2 ul li a:hover {
   color: crimson;
 }
-.container2 {
-  padding-left: 40px;
-}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -261,10 +258,77 @@ img {
 .price {
   font-size: 20px;
 }
-del{
+del {
   color: crimson;
 }
-.fourth{
-  background-color: peachpuff;
+.fourth {
+  background-color: rgb(250, 236, 224);
+  height: 80vh;
+  margin: auto 40px;
+  padding: 40px 100px;
+  position: relative;
 }
-
+.boy-img img {
+  height: 100vh;
+  width: auto;
+  position: relative;
+  top: -26vh;
+}
+.boy-heading {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boy-heading h1 {
+  display: block;
+  width: 55%;
+  font-family: "Playfair", serif;
+  font-weight: 900;
+  font-size: 75px;
+  margin-bottom: 10px;
+}
+.boy-heading h3{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #1f2022;
+}
+.btn3 button {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.btn3 button::before {
+  background-color: rgb(77, 76, 76);
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  border-radius: 35px;
+  transition: all 0.2s ease-in-out;
+}
+.btn3 button:hover {
+  color: rgb(255, 255, 255);
+}
+.btn3 button:hover::before {
+  color: white;
+  width: 100%;
+}
