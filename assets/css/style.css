@@ -229,6 +229,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 200px;
 }
 .box img{
   width: 100%;
