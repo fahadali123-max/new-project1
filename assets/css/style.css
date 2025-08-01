@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -135,26 +135,26 @@ img {
   margin-left: -40px;
   padding: 10px 30px;
 }
-.container{
- margin-top: 200px;
+.container {
+  margin-top: 200px;
 }
-.heading h1{
-    font-family: "Playfair", serif;
-    font-weight: bolder;
-    font-size: 60px;
-    text-align: center;
+.heading h1 {
+  font-family: "Playfair", serif;
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
 }
-.collection-image{
+.collection-image {
   position: relative;
   width: 33%;
   height: 280px;
 }
-.collection-image img{
-height: 100%;
-width: 100%;
-object-fit: cover;
+.collection-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-.text{
+.text {
   position: absolute;
   top: 0;
   left: 0;
@@ -166,11 +166,11 @@ object-fit: cover;
   align-items: end;
   padding: 20px;
 }
-.text h2{
+.text h2 {
   font-family: "Playfair", serif;
-  font-size: 30px
+  font-size: 30px;
 }
-.main-collection{
+.main-collection {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,7 +178,7 @@ object-fit: cover;
   padding: 80px 80px;
   padding-bottom: 300px;
 }
-.anchor a{
+.anchor a {
   text-decoration: none;
   color: #1f2022;
   font-family: "Prompt", sans-serif;
@@ -187,9 +187,63 @@ object-fit: cover;
   font-weight: 600;
   padding: 7px 9px;
 }
- .text span {
+.text span {
   font-family: "Yellowtail", cursive;
   color: #2577fd;
   font-size: 30px;
   font-weight: 600;
- }
+}
+.product-collection{
+  display: flex;
+  text-align: flex-end;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading2 h1 {
+  font-family: "Playfair", serif;
+  font-weight: bolder;
+  font-size: 60px;
+}
+.navbar2 ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.navbar2 ul li{
+  padding: 0px 20px;
+  margin-bottom: -70px;
+}
+.navbar2 ul li:hover{
+ color: crimson;
+ cursor: pointer;
+}
+.container2{
+  padding-left: 40px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.box img{
+  width: 100%;
+}
+.product-text{
+  text-align: center;
+}
+.product-text h3{
+    font-family: "Playfair", serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.price{
+  font-size: 20px;
+}
+del{
+  color: crimson;
+}
