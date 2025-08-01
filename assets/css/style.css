@@ -217,9 +217,12 @@ img {
   padding: 0px 20px;
   margin-bottom: -70px;
 }
-.navbar2 ul li:hover{
+.navbar2 ul li a{
+  text-decoration: none;
+  color: black;
+}
+.navbar2 ul li a:hover{
  color: crimson;
- cursor: pointer;
 }
 .container2{
   padding-left: 40px;
@@ -227,12 +230,23 @@ img {
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 80px;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 200px;
+  gap: 65px 40px;
 }
 .box img{
   width: 100%;
+}
+.stars i{
+  margin-bottom: 20px;
+}
+.stars .fa{
+  color: #ffce25;
+}
+.stars .l{
+  color:rgba(194, 183, 183, 0.685);
 }
 .product-text{
   text-align: center;
@@ -241,10 +255,16 @@ img {
     font-family: "Playfair", serif;
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: 15px;
 }
 .price{
   font-size: 20px;
 }
 del{
   color: crimson;
+}
+.fourth{
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: rgb(253, 222, 216);
 }
