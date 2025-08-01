@@ -51,6 +51,7 @@ body {
   margin: -30px;
   border: none;
   cursor: pointer;
+  background-color: white;
 }
 .btn1 button {
   padding: 20px 20px;
@@ -193,7 +194,7 @@ img {
   font-size: 30px;
   font-weight: 600;
 }
-.product-collection{
+.product-collection {
   display: flex;
   text-align: flex-end;
   justify-content: space-around;
@@ -207,27 +208,27 @@ img {
   font-weight: bolder;
   font-size: 60px;
 }
-.navbar2 ul{
+.navbar2 ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
-.navbar2 ul li{
+.navbar2 ul li {
   padding: 0px 20px;
   margin-bottom: -70px;
 }
-.navbar2 ul li a{
+.navbar2 ul li a {
   text-decoration: none;
   color: black;
 }
-.navbar2 ul li a:hover{
- color: crimson;
+.navbar2 ul li a:hover {
+  color: crimson;
 }
-.container2{
+.container2 {
   padding-left: 40px;
 }
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 80px;
@@ -236,31 +237,34 @@ img {
   padding-bottom: 200px;
   gap: 65px 40px;
 }
-.box img{
+.box img {
   width: 100%;
 }
-.stars i{
+.stars i {
   margin-bottom: 20px;
 }
-.stars .fa{
+.stars .fa {
   color: #ffce25;
 }
-.stars .l{
-  color:rgba(194, 183, 183, 0.685);
+.stars .l {
+  color: rgba(194, 183, 183, 0.685);
 }
-.product-text{
+.product-text {
   text-align: center;
 }
-.product-text h3{
-    font-family: "Playfair", serif;
+.product-text h3 {
+  font-family: "Playfair", serif;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 15px;
 }
-.price{
+.price {
   font-size: 20px;
 }
 del{
   color: crimson;
+}
+.fourth{
+  background-color: peachpuff;
 }
 
