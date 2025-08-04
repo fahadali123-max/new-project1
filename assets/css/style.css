@@ -11,6 +11,12 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  /* top: 10px; */
+}
+header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 .navbar {
   display: flex;
@@ -261,10 +267,10 @@ img {
 del {
   color: crimson;
 }
-.sec-4{
+.sec-4 {
   padding: 150px 0px;
 }
-.fourth{
+.fourth {
   background-color: rgb(250, 236, 224);
   height: 80vh;
   margin: auto 70px;
@@ -295,7 +301,7 @@ del {
   font-size: 75px;
   margin-bottom: 10px;
 }
-.boy-heading h3{
+.boy-heading h3 {
   font-size: 25px;
   font-weight: 400;
   margin-bottom: 40px;
@@ -335,22 +341,106 @@ del {
   color: white;
   width: 100%;
 }
-.shirt img{
+.shirt img {
   position: absolute;
   right: 7%;
   bottom: 5%;
 }
-.fifth{
+.sec-5{
+  position: relative;
+  height: 100vh;
+  width: auto;
+}
+.fifth {
   height: 80vh;
   margin: auto 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
-.fifth-heading h2{
+.fifth-heading h2 {
   color: #1f2022;
   font-family: "Playfair", serif;
   font-weight: 900;
-  font-size: 75px;
+  font-size: 55px;
   margin-bottom: 10px;
+  width: 60%;
+}
+.fifth-heading p {
+  color: #1f2022;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.btn4 button {
+  padding: 15px 50px;
+  background-color: #2577fd;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.btn4 button::before {
+  background-color: #68a0fa;
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  border-radius: 35px;
+  transition: all 0.2s ease-in-out;
+}
+.btn4 button:hover {
+  color: rgb(255, 255, 255);
+}
+.btn4 button:hover::before {
+  color: white;
+  width: 100%;
+}
+.mid-img img {
+  height: 100%;
+  width: auto;
+}
+.collection-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.content-{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.explain{
+  text-align: center;
+  color: #1f2022;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.explain-2{
+  background-color: #2577fd;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  font-family: "Playfair", serif;
+  padding: 5px 6px;
+  margin-right: 20px;
+}
+.pants img{
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
 }
