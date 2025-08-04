@@ -261,6 +261,9 @@ img {
 del {
   color: crimson;
 }
+.sec-4{
+  padding: 150px 0px;
+}
 .fourth {
   background-color: rgb(250, 236, 224);
   height: 80vh;
@@ -331,4 +334,9 @@ del {
 .btn3 button:hover::before {
   color: white;
   width: 100%;
+}
+.shirt img{
+  position: absolute;
+  right: 7%;
+  bottom: 5%;
 }
