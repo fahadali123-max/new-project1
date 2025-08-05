@@ -726,6 +726,9 @@ display: none;
 .mid-img img{
   display: none;
 }
+.fifth{
+  margin:0px;
+}
 .fifth-heading h2 {
   color: #1f2022;
   font-family: "Playfair", serif;
@@ -772,6 +775,9 @@ display: none;
   padding: 10px 30px;
   font-weight: 300;
 }
+.seventh{
+  margin: 0px;
+}
 .grid-7{
  grid-template-columns: 1fr;
  gap: 20px 0px;
@@ -798,9 +804,16 @@ display: none;
 .img_5{
   margin-left: 0;
 }
+.sec-8{
+  margin: 0px;
+}
+.ninth{
+  margin: 0px;
+}
 .grid-9{
   grid-template-columns: 1fr;
   gap: 20px 0;
+}
 }
 @media (max-width:540px) {
   .main .main-img img {
@@ -827,6 +840,5 @@ display: none;
 }
 .grid-7{
  gap: 30px 0px;
-}
 }
 }
