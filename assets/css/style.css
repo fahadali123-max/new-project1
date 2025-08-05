@@ -17,13 +17,13 @@ header {
   top: 0;
   z-index: 999;
   width: 100%;
+  background-color: white;
 }
 .navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 23px 0px;
-  background-color: white;
 }
 .navbar img {
   cursor: pointer;
