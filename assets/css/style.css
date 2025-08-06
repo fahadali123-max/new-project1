@@ -661,7 +661,7 @@ footer{
 }
 .collection-image {
   position: relative;
-  width: 100;
+  width: 80%;
   height: 280px;
 }
 .collection-image img {
@@ -676,6 +676,15 @@ footer{
   flex-direction: column;
   gap: 10px;
   padding:0;
+  margin-bottom: 25px;
+}
+.anchor a {
+  font-weight: 500;
+  padding: 4px 5px;
+}
+.text span {
+  font-size: 20px;
+  font-weight: 500;
 }
 .product-collection {
  flex-direction: column;
@@ -713,7 +722,7 @@ footer{
   font-weight: 400;
   margin-bottom: 40px;
   color: #1f2022;
-  width: 100%;
+  width: 60%;
 }
 .btn3 button {
   padding: 10px 30px;
@@ -819,6 +828,11 @@ display: none;
   .main .main-img img {
   display:none;
 }
+.collection-image {
+  position: relative;
+  width: 80%;
+  height: 180px;
+}
 .grid{
   grid-template-columns: 1fr;
 }
@@ -833,6 +847,7 @@ display: none;
 .boy-heading h3 {
   font-size: 20px;
   font-weight: 300;
+  width: 70%;
 }
 .input-6 input{
   padding: 8px 0px 8px 5px;
